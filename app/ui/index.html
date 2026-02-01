@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Privacy Workbench</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>
+    Privacy-Isolated Networking Workbench
+    <span class="badge">Pentester Mode</span>
+  </h1>
+
+  <div id="scopeBanner"></div>
+
+  <div class="grid">
+    <div class="card" id="sessionPanel"></div>
+    <div class="card" id="networkInspector"></div>
+    <div class="card" id="fingerprintInspector"></div>
+    <div class="card" id="logsPanel"></div>
+  </div>
+
+  <div class="footer">
+    Guardrails: No automation • No mid-session mutation • Session restart required for identity/network changes.
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
