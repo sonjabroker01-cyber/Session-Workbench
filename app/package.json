@@ -1,0 +1,12 @@
+{
+  "name": "privacy-isolated-networking-workbench",
+  "version": "0.1.0",
+  "description": "Session-isolated privacy environment for security research",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^29.0.0"
+  }
+}
